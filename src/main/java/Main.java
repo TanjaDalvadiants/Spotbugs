@@ -8,6 +8,8 @@ public class Main {
 
 
     long actual = service.calculate (amount, registered);
+    System.out.printf("Результат:", actual);
+
 
   }
 }
